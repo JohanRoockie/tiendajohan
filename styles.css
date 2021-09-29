@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+
+
+/*header and navigation*/
+.header{
+    background: #24262b;
+    margin-top: 0%;
+}
+
+.header__title{
+    display: inline;
+    color: white;
+    text-align: right;
+    float: right;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    vertical-align: super;
+}
+
+.header__img{
+    width: 220px;
+    height: 115px;
+    background:white;
+    float: left;
+}
+
+.header__img {
+    width: 10em;
+    align-items: ceter;
+   
+}
+
+.nav{
+    color: white;
+    text-align: right;
+}
+
+
+.nav__item{
+    text-align: right;
+    font-size: 1.3em;
+    list-style: none;
+    float:right;
+    padding: 2em;
+}
+
+.nav__item a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav__item--nonfloat{
+    display: inline-block;
+    font-size: 1.3em;
+    list-style: none;
+    padding: 2em;
+
+}
+
+.nav__item--nonfloat a{
+    color: white;
+    text-decoration: none;
+}
+
+/*descuentos*/
+
+.discounts{
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    
+}
+
+.discounts p{
+    font-size: 1.2em;
+}
+
+/*presentation*/
+
+.presentation h2{
+    text-align: center;
+    font-size: 2em ;
+}
+
+.presentation p{
+    text-align: center;
+    font-size: 1.05em;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+
+}
+
+/*cards*/
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__container {
+    display: inline-block;
+    margin: 5.3%;
+    color: white;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+    max-width: 1100ps;
+
+}
+
+.main__container--card{
+    
+    display: inline-block;
+    background-color: rgb(235, 235, 235);
+    width: 18em;
+    height: 40em;
+
+    border-radius: 6px ;
+    overflow: hidden;
+}
+
+.main__card--img{
+    margin-top: 1.8em;
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+    border-radius: 2em;
+    width: 14.5em;
+    height: 25em;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main__card--text{
+    margin-left: 2em;
+    margin-right: 2em;
+    color: black;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main__card--text--price s{
+    color: red;
+}
+
+.main__card--text--readMore a{
+    color: rgb(122, 122, 122);
+    font-size: 0.8em;
+    text-decoration: none;
+    
+
+}
+
+/*footer*/
+
+
+.container{
+    max-width: 1170;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    display: inline-block;
+    width: 100%;
+    background-color: #24262b;
+    padding: 70px;
+}
+
+.footer__col{
+    
+    min-width: 200px;
+    width: 25%;
+    padding: 0 15px;   
+}
+
+.footer__col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer__col h4::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer__col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer__col ul li a{
+    min-width: 100px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.footer__col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer__col .social-links a{
+    display: inline-block;
+    height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer__col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+
+}
+
+
+
+
+
+
+
